@@ -2,8 +2,8 @@
 
 ## About me
 
-Hi, I am junior developer with 1+ year of experience designing, developing websites.
-I want to improve my skills to become great frontend developer.
+Hi, I am a junior developer with 1+ years of experience designing, developing websites.
+I want to improve my skills to become a great frontend developer.
 
 ## Contact
 - **Email:** oleksandra.fomenko@gmail.com
