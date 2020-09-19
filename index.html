@@ -15,102 +15,114 @@
   <header>
     <nav>
       <ul>
-        <li>Experience</li>
-        <li>Skills</li>
-        <li>Education</li>
-        <li>Languages</li>
-        <li>Contact</li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section class="about-section">
       <div class="content-wrapper">
-      <h1>Oleksandra <br>Fomenko</h1>
-      <h3>About me </h3>
-      <p>Hi, I am a junior developer with 1+ years of experience designing and developing websites.
-         I want to improve my skills to become a great frontend developer.</p>
+        <h1>Oleksandra <br>Fomenko</h1>
+        <h3>About me </h3>
+        <p>Hi, I am a junior developer with 1+ years of experience designing and developing websites.
+          I want to improve my skills to become a great frontend developer.</p>
       </div>
       <div class="image-wrapper">
         <img src="img/photo.jpg" alt="photo">
       </div>
     </section>
-    <section class="info-section">
-    <section>
-      <h2>Work Experience_</h2>
-      <ul>
-        <span>Frontend Developer, Jul 2019 – present, 1+ years</span>
-        <span>SMARTWAY, Kyiv, Ukraine</span>
-        <li>Designed UX wireframes and mockups</li>
-        <li>Developed and optimized responsive websites</li>
-        <li>Used Barba.js, Animista</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Professional Skills_</h2>
-      <ul>
-        <li>HTML/CSS/JavaScript</li>
-        <li>SASS</li>
-        <li>Gulp</li>
-        <li>GIT</li>
-        <li>UX/UI</li>
-        <li>Material Design</li>
-        <li>Adobe Photoshop/Illustrator</li>
-        <li>Figma</li>
-        <li>CorelDRAW</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Code Examples_</h2>
-      <code>
+    <div class="info-section">
+      <section class="work-experience-section">
+        <div class="content-wrapper">
+          <h2 id="experience">Work Experience_</h2>
+          <span><b>Frontend Developer</b>, <i>Jul 2019 – present, 1+ years</i></span>
+          <span>SMARTWAY, Kyiv, Ukraine</span>
+          <ul class="wide-list">
+            <li>Designed UX wireframes and mockups</li>
+            <li>Developed and optimized responsive websites</li>
+            <li>Used Barba.js, Animista</li>
+          </ul>
+        </div>
+        <div class="content-wrapper">
+          <h2 id="skills">Professional Skills_</h2>
+          <ul>
+            <li>HTML/CSS/JavaScript</li>
+            <li>SASS</li>
+            <li>Gulp</li>
+            <li>GIT</li>
+            <li>UX/UI</li>
+            <li>Material Design</li>
+            <li>Adobe Photoshop/Illustrator</li>
+            <li>Figma</li>
+            <li>CorelDRAW</li>
+          </ul>
+        </div>
+      </section>
+      <section class="code-examples-section">
+        <h2>Code Examples_</h2>
+        <pre>
         function arrayDiff(a, b) {
         let diff = a.filter(x => !b.includes(x));
         return (diff);
-      </code>
-    </section>
-    <section>
-      <h2>Education_</h2>
-      <ul>
-        <li>
-          <span>National Technical University of Ukraine "Kyiv Polytechnic Institute"</span>
-          <span>2011 - 2017 Kyiv, Ukraine</span>
-          <span>Mechanical Engineering</span>
-        </li>
-        <li>
-          <span>Ruhr University Bochum</span>
-          <span>2014 - 2016 Bochum, Germany</span>
-          <span>IT in Engineering</span>
-        </li>
-      </ul>
-      <h3>Courses & Self-Education</h3>
-      <ul>
-        <li><a href="https://theodinproject.com/">TheOdinProject</a></li>
-        <li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
-        <li><a href="https://learngitbranching.js.org/">learnGitBranching</a></li>
-        <li><a href="http://webmasters.teamdev.com/">Webmasters</a></li>
-        <li><a href="https://github.com/Asabeneh/30DaysOfJavaScript">30DaysOfJavaScript</a></li>
-        <li><a href="https://cs50.harvard.edu/">CS50</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Languages_</h2>
-      <h3>English</h3>
-      <span>Level: **Intermediate**</span>
-      <h3>German</h3>
-      <span>Level: **Upper-Intermediate**</span>
-      <span>Certificate: **TestDAF C1**</span>
-    </section>
-    </section>
+      </pre>
+        <pre>
+        function arrayDiff(a, b) {
+        let diff = a.filter(x => !b.includes(x));
+        return (diff);
+      </pre>
+      </section>
+      <section class="education-section">
+        <div class="content-wrapper">
+          <h2 id="education">Education_</h2>
+          <ul class="wide-list">
+            <li>
+              <span><b>National Technical University of Ukraine "Kyiv Polytechnic Institute"</b></span>
+              <span><i>2011 - 2017 Kyiv, Ukraine</i></span>
+              <span>Mechanical Engineering</span>
+            </li>
+            <li>
+              <span><b>Ruhr University Bochum</b></span>
+              <span><i>2014 - 2016 Bochum, Germany</i></span>
+              <span>IT in Engineering</span>
+            </li>
+          </ul>
+          <h3>Courses & Self-Education</h3>
+          <ul class="wide-list links-list">
+            <li><a href="https://theodinproject.com/">TheOdinProject</a></li>
+            <li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+            <li><a href="https://learngitbranching.js.org/">learnGitBranching</a></li>
+            <li><a href="http://webmasters.teamdev.com/">Webmasters</a></li>
+            <li><a href="https://github.com/Asabeneh/30DaysOfJavaScript">30DaysOfJavaScript</a></li>
+            <li><a href="https://cs50.harvard.edu/">CS50</a></li>
+          </ul>
+        </div>
+        <section class="languages-section">
+          <h2 id="languages">Languages_</h2>
+          <h3>English</h3>
+          <span>Level: <b>Intermediate</b></span>
+          <h3>German</h3>
+          <span>Level: <b>Upper-Intermediate</b></span>
+          <span>Certificate: <b>TestDAF C1</b></span>
+        </section>
+      </section>
+    </div>
     <footer>
-      <h2>Contact_</h2>
+      <h2 id="contact">Contact_</h2>
       <ul>
-        <li>Email: oleksandra.fomenko@gmail.com</li>
-        <li>Tel: +38(097)9845104</li>
-        <li>GitHub: [fomenko-o](https://github.com/fomenko-o)</li>
-        <li>Telegram: @ooque</li>
+        <li><i class="far fa-envelope"></i><a href="mailto:oleksandra.fomenko@gmail.com">oleksandra.fomenko@gmail.com</a></li>
+        <li><i class="fas fa-phone-alt"></i><a href="tel:+380979845104">+38(097)9845104</a></li>
+      </ul>
+      <ul>
+        <li><i class="fab fa-github"></i><a href="https://github.com/fomenko-o">GitHub: fomenko-o</a></li>
+        <li><i class="far fa-paper-plane"></i>Telegram: @ooque</li>
       </ul>
     </footer>
   </main>
+  <script src="https://kit.fontawesome.com/c8ae55dac3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
